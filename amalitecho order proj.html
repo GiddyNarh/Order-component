@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap">
+
+   
+    <title>Order system</title>
+    <style>
+        body{
+            height: 100vp;
+            width: 100%;
+            background-image: url(./pattern-background-desktop.svg);
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Red Hat Display'; 
+        }
+        
+        .head{
+            background-color: whitesmoke;
+            height: 130px;
+            width: 300px;
+            padding: 2pc;
+            
+            margin-top: 2pc;
+            border-top-right-radius: 2rem;
+            border-top-left-radius: 2rem;
+            background-image: url(./illustration-hero.svg);
+            background-position: center;
+            background-size: cover;
+        }   
+        .lower{
+            height: 350px;
+            width: 300px;
+            padding: 2pc;
+            padding-bottom: 4pc;
+            
+            background-color: white;
+            border-bottom-right-radius: 2rem;
+            border-bottom-left-radius: 2rem;
+            
+        }
+        p{
+            color: #717FA6;
+            text-align: center;
+            font-family: 'Red Hat Display';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: 26px;
+        }
+        .music{
+            padding: 1.1rem;
+            background-color: whitesmoke;
+            border-top-right-radius: 1rem;
+            border-top-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+            border-bottom-left-radius: 1rem;
+            display:flex ;
+            flex-direction: row;
+            font-size: small;
+            font: optional;
+            font-weight: 100;
+            
+
+
+            
+
+        }
+        a{
+            margin-left: 3rem;
+            color: blue;
+             font-weight: 600;
+          }
+         a :active{
+            color: black;
+         }
+         a:hover{
+            color: aquamarine;
+         }
+          
+        .bton{
+            background-color: blue;
+            width: 15pc;
+            height: 3pc;
+            border-radius: 1rem;
+            border: none;
+            cursor: pointer;
+            margin-left: 2pc;
+            
+        }
+        .cano{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3pc;
+            cursor: pointer;
+            font-weight: 5px;
+            font-size: smaller;
+        }
+        .footer{
+            margin-bottom: 14pc;
+            
+        }
+        h3{
+            margin-left: 1pc;
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+
+    </div> 
+    <div class="lower">
+        <center><h2 style="font-family: Red Hat Display;">Order Summary</h2></center>
+        <p>You can now listen to millions of songs,audiobooks,and podcasts on any device you like!
+
+        </p>
+        <div class="music">
+            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#DFE6FB"/><path fill="#717FA6" fill-rule="nonzero" d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"/></g></svg>
+            
+                <h3 class="span"> Annual plan <span>$59.99/year </span></h3>
+                <p><a href="">Change</a></p>
+        
+        </span>
+        </div>
+         <br> <br> 
+         <section class="footer">
+            <button class="bton" type="submit"> Proceed to  Payment</button>
+          <h4 class="cano">Cancel Order</h4>
+         </section> 
+
+
+    </div>
+</body>
+</html>
